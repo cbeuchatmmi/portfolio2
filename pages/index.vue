@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import MyHero from '~/components/myHero.vue';
+
+</script>
+
 <template>
     <div>
-        <h1>salut</h1>
-
+        <MyHero/>
+        <MyAbout/>
     </div>
 </template>
