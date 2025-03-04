@@ -1,11 +1,29 @@
 <template>
     <div>
-        <header>
+        <header class="layout__header">
           <LayoutMyHeader />
         </header>
-          <slot />
-        <footer>
+        
+        <article class="layout__article">
+            <NuxtPage/>
+        </article>
+        <footer class="layout__footer">
          <LayoutMyFooter/>
         </footer>
     </div>
   </template>
+  <style lang="scss">
+    .layout{
+        &__header{
+        position: absolute;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        }
+
+    }
+
+
+  
+  
+  </style>

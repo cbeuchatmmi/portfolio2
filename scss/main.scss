@@ -1,7 +1,8 @@
-@import './foundations/reset';
+@import '/scss/foundations/reset';
 
 body {
     font-family: $primary-font-familly;
-    font-size: $regular-font-size;
+    font-size: $regular;
+    color: $white;
     line-height: 1.2;
 }
