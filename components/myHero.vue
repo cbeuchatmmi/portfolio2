@@ -14,7 +14,7 @@
 </template>
 <style lang="scss">
 .hero {
-    margin-top: 10rem;
+    margin-top: 18rem;
 
     display: flex;
     flex-flow: column;

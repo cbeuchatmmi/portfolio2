@@ -53,13 +53,14 @@ import MyCircle from './svg/myCircle.vue';
 </template>
 <style lang="scss">
 .about {
-    margin-top: 10rem;
-
+    margin-top: 20rem;
+    
     display: flex;
     flex-flow: column;
     gap: 0.5rem;
     // padding: 33px;
     &__title{
+        margin-bottom: 5rem;
         font-size: $giant;
         font-weight: bold;
         text-align: center;
@@ -69,7 +70,7 @@ import MyCircle from './svg/myCircle.vue';
     }
     &__chrono{
         display: grid;
-        grid-template-columns: 50% 50%; // Définir deux colonnes
+        grid-template-columns: 50% 40%; // Définir deux colonnes
         gap: 2rem; // Espace entre les colonnes
         width: 100%; // S'assurer que la grille prend toute la largeur disponible
         
@@ -112,8 +113,10 @@ import MyCircle from './svg/myCircle.vue';
             }
             &--paragraphe{
                 margin-top: 5rem;
+                margin-left: 5rem;
                 display: flex;
                 flex-flow: column;
+
                 p{
                     margin-top: 5px;
                 }
