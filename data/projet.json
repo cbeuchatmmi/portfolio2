@@ -1,0 +1,20 @@
+[
+    {
+        "imgSrc": "/img/Ecocalypse.svg",
+        "title": "Ecocalypse",
+        "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
+        "technologies": ["Next.js", "Unreal Engine", "Blueprint"]
+    },
+    {
+        "imgSrc": "/img/Pilleur.svg",
+        "title": "Pilleur de sepulture",
+        "description": "Jeu vidéo type escape game",
+        "technologies": ["Unity", "3ds Max", "C#"]
+    },
+    {
+        "imgSrc": "/img/Asso.svg",
+        "title": "Aide aux Asso",
+        "description": "Application mobile d'aide pour la gestion des associations",
+        "technologies": ["Flutter", "Dart"]
+    }
+]

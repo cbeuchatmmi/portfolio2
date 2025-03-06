@@ -1,3 +1,4 @@
+
 <template>
     <div class="c-header">
         <h1 class="c-header__title">Portfolio</h1>
@@ -13,19 +14,19 @@
     </div>
     <div class="c-menu">
         <nav class="c-menu__nav">
-            <a href="#" class="c-menu__nav--link">
+            <a href="/" class="c-menu__nav--link">
                 <img src="/assets/home.svg" alt="logo home" class="c-menu__nav--link--home">
             </a>
-            <a href="#" class="c-menu__nav--link">
+            <a href="#myAbout" class="c-menu__nav--link">
                 <img src="/assets/user.svg" alt="logo user" class="c-menu__nav--link--user">
             </a>
-            <a href="#" class="c-menu__nav--link">
+            <a href="#myCompetence" class="c-menu__nav--link">
                 <img src="/assets/book.svg" alt="logo book" class="c-menu__nav--link--book">
             </a>
-            <a href="#" class="c-menu__nav--link">
+            <a href="#myProjet" class="c-menu__nav--link">
                 <img src="/assets/briefcase.svg" alt="logo briefcase" class="c-menu__nav--link--briefcase">
             </a>
-            <a href="#" class="c-menu__nav--link">
+            <a href="#Contact" class="c-menu__nav--link">
                 <img src="/assets/sms.svg" alt="logo sms" class="c-menu__nav--link--sms">
             </a>
         </nav>
