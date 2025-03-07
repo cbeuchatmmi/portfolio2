@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps } from 'vue';
+import { defineProps, defineEmits } from 'vue';
 
 const props = defineProps({
     imgSrc: {
@@ -23,10 +23,12 @@ const props = defineProps({
         default: 'Voir plus...'
     }
 });
+
+const emit = defineEmits(['click']);
 </script>
 
 <template>
-    <div class="card">
+    <div class="card" @click="$emit('click')">
         <img :src="imgSrc" alt="image du projet" class="card__img">
         <div class="card__content">
             <h3 class="card__content--title">{{ title }}</h3>
@@ -61,7 +63,9 @@ const props = defineProps({
             font-weight: bold;
             font-size: $medium;
         }
-
+        &--paragraphe {
+            // Ajoutez des styles ici si nécessaire
+        }
         &--list {
             display: flex;
             flex-flow: row;

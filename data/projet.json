@@ -3,18 +3,39 @@
         "imgSrc": "/img/Ecocalypse.svg",
         "title": "Ecocalypse",
         "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
-        "technologies": ["Next.js", "Unreal Engine", "Blueprint"]
+        "technologies": ["Next.js", "Unreal Engine", "Blueprint"],
+        "objectif": "test",
+        "solution": "test",
+        "client": "Projet annuel première année PSM",
+        "role": "Developpeur jeu en VR",
+        "site": "/",
+        "github": "/",
+        "download": "none"
     },
     {
         "imgSrc": "/img/Pilleur.svg",
         "title": "Pilleur de sepulture",
         "description": "Jeu vidéo type escape game",
-        "technologies": ["Unity", "3ds Max", "C#"]
+        "technologies": ["Unity", "3ds Max", "C#"],
+        "objectif": "",
+        "solution": "",
+        "client": "Cours d'Animation 3D",
+        "role": "Developpeur et Modelisateur 3D",
+        "site": "none",
+        "github": "none",
+        "download": "none"
     },
     {
         "imgSrc": "/img/Asso.svg",
         "title": "Aide aux Asso",
         "description": "Application mobile d'aide pour la gestion des associations",
-        "technologies": ["Flutter", "Dart"]
+        "technologies": ["Flutter", "Dart"],
+        "objectif": "",
+        "solution": "",
+        "client": "Cours de développement mobile hybride",
+        "role": "Developpeur",
+        "site": "none",
+        "github": "none",
+        "download": "none"
     }
 ]
