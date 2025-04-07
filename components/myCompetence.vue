@@ -44,7 +44,7 @@ onMounted(() => {
                     <myBarre :width="140" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
-                    <p>Quasar</p>
+                    <p>ThreeJS</p>
                     <myBarre :width="120" :animate="animateBars"/>
                 </div>
             </div>
@@ -97,11 +97,11 @@ onMounted(() => {
             <div class="competence__card--column">
                 <div class="competence__card--flex">
                     <p>Unreal Engine </p>
-                    <myBarre :width="160" :animate="animateBars"/>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>Blueprint</p>
-                    <myBarre :width="160" :animate="animateBars"/>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>Unity</p>
@@ -113,7 +113,7 @@ onMounted(() => {
                 </div>
                 <div class="competence__card--flex">
                     <p>3ds Max</p>
-                    <myBarre :width="140" :animate="animateBars"/>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
             </div>
         </div>
