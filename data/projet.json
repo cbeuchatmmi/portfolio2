@@ -35,7 +35,20 @@
         "client": "Cours de développement mobile hybride",
         "role": "Developpeur",
         "site": "none",
-        "github": "none",
+        "github": "https://github.com/Beaurain-Hugo/aideAssoApp",
+        "download": "/download/app-release.apk"
+    },
+    {
+        "imgSrc": "/img/Tiktak.svg",
+        "title": "Tik Tak",
+        "description": "Site ecommerce de vente de montre",
+        "technologies": ["NuxtJS", "ThreeJS"],
+        "objectif": "",
+        "solution": "",
+        "client": "SAE 504 - BUT MMI",
+        "role": "Developpeur full stack",
+        "site": "https://tiktak.cbeuchat.fr/",
+        "github": "https://github.com/cbeuchatmmi/sae501",
         "download": "none"
     }
 ]

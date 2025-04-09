@@ -47,9 +47,9 @@ console.log(projet)
                         <p>Voir le code source</p>
                     </button>
                 </a>
-                <a v-if="projet.download !== 'none'" :href="projet.download" class="button">
+                <a v-if="projet.download !== 'none'" download :href="projet.download" class="button">
                     <button class="button--blue">
-                        <p>Télécharger le jeu</p>
+                        <p>Télécharger</p>
                     </button>
                 </a>
             </div>
