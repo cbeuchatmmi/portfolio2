@@ -1,20 +1,59 @@
 [
-    {
-        "imgSrc": "/img/Ecocalypse.svg",
-        "title": "Ecocalypse",
-        "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
-        "technologies": ["Next.js", "Unreal Engine", "Blueprint"]
-    },
+
     {
         "imgSrc": "/img/Pilleur.svg",
         "title": "Pilleur de sepulture",
         "description": "Jeu vidéo type escape game",
-        "technologies": ["Unity", "3ds Max", "C#"]
+        "technologies": ["Unity", "3ds Max", "C#"],
+        "objectif": "Ce projet a pour but de réaliser un jeu vidéo par binôme sur Unity. Il fallait créer un jeu de type Escape Game avec un enchaînement d'énigmes à résoudre pour finir le jeu.",
+        "solution": "Nous avons décidé de faire un jeu dans l'esprit Indiana Jones / Tomb Raider. Pour cela, nous avons cherché des modèles 3D gratuits pour faire le décor du jeu. Puis, nous avons créé des assets et modifié certains pour faire les énigmes.",
+        "client": "Cours d'Animation 3D",
+        "role": "Developpeur et Modelisateur 3D",
+        "site": "none",
+        "github": "none",
+        "download": "none",
+        "youtube": "https://www.youtube.com/embed/w1smHvg44k0",
+        "images": [
+            { "type": "image", "src": "/img/Pilleur/Coffre.png" },
+            { "type": "image", "src": "/img/Pilleur/Minion.png" },
+            { "type": "image", "src": "/img/Pilleur/Total.png" }
+        ]
     },
     {
-        "imgSrc": "/img/Asso.svg",
-        "title": "Aide aux Asso",
-        "description": "Application mobile d'aide pour la gestion des associations",
-        "technologies": ["Flutter", "Dart"]
+        "imgSrc": "/img/Tiktak.svg",
+        "title": "Tik Tak",
+        "description": "Site ecommerce de vente de montre",
+        "technologies": ["NuxtJS", "ThreeJS", "NodeJS"],
+        "objectif": "Dans le cadre de la SAE 504, nous devions réaliser un site ecommerce de montre. Il fallait utiliser NodeJS pour créer l'API et la base de données, NuxtJS pour le front avec SCSS et la méthode atomique pour faire le design du site et ThreeJS pour afficher le modèle 3D des montres.",
+        "solution": "",
+        "client": "SAE 504 - BUT MMI",
+        "role": "Developpeur full stack",
+        "site": "https://tiktak.cbeuchat.fr/",
+        "github": "https://github.com/cbeuchatmmi/sae501",
+        "download": "none",
+        "images": [
+            { "type": "image", "src": "/img/Tiktak/Liste.png" },
+            { "type": "image", "src": "/img/Tiktak/Modifier.png" },
+            { "type": "image", "src": "/img/Tiktak/Panier.png" }
+        ]
+    },
+    {
+        
+        "imgSrc": "/img/Ecocalypse.svg",
+        "title": "Ecocalypse",
+        "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
+        "technologies": ["Next.js", "Unreal Engine", "Blueprint"],
+        "objectif": "test",
+        "solution": "test",
+        "client": "Projet annuel première année PSM",
+        "role": "Developpeur jeu en VR",
+        "site": "/",
+        "github": "/",
+        "download": "none",
+        "images": [
+            { "type": "image", "src": "/img/Asso.svg" },
+            { "type": "image", "src": "/img/Ecocalypse.svg" },
+            { "type": "video", "src": "/videos/Ecocalypse.mp4" }
+        ]
     }
 ]

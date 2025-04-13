@@ -25,26 +25,30 @@ onMounted(() => {
             <div class="competence__card--column">
                 <div class="competence__card--flex">
                     <p>HTML</p>
-                    <myBarre :width="160" :animate="animateBars"/>
+                    <myBarre :width="180" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>CSS</p>
-                    <myBarre :width="160" :animate="animateBars"/>
+                    <myBarre :width="180" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>Javascript</p>
+                    <myBarre :width="180" :animate="animateBars"/>
+                </div>
+                <div class="competence__card--flex">
+                    <p>VueJS</p>
                     <myBarre :width="160" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
-                    <p>Vue.js</p>
-                    <myBarre :width="150" :animate="animateBars"/>
-                </div>
-                <div class="competence__card--flex">
-                    <p>Nuxt.js</p>
+                    <p>NuxtJS</p>
                     <myBarre :width="140" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>Quasar</p>
+                    <myBarre :width="120" :animate="animateBars"/>
+                </div>
+                <div class="competence__card--flex">
+                    <p>ThreeJS</p>
                     <myBarre :width="120" :animate="animateBars"/>
                 </div>
             </div>
@@ -53,16 +57,16 @@ onMounted(() => {
             <h3 class="competence__card--title">Backend</h3>
             <div class="competence__card--column">
                 <div class="competence__card--flex">
-                    <p>Node.js</p>
+                    <p>NodeJS</p>
                     <myBarre :width="160" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
-                    <p>Adonis.js</p>
-                    <myBarre :width="140" :animate="animateBars"/>
+                    <p>AdonisJS</p>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>PHP</p>
-                    <myBarre :width="120" :animate="animateBars"/>
+                    <myBarre :width="100" :animate="animateBars"/>
                 </div>
             </div>
         </div>
@@ -72,6 +76,14 @@ onMounted(() => {
                 <div class="competence__card--flex">
                     <p>MySQL</p>
                     <myBarre :width="140" :animate="animateBars"/>
+                </div>
+                <div class="competence__card--flex">
+                    <p>Firebase</p>
+                    <myBarre :width="120" :animate="animateBars"/>
+                </div>
+                <div class="competence__card--flex">
+                    <p>Supabase</p>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
             </div>
         </div>
@@ -97,11 +109,11 @@ onMounted(() => {
             <div class="competence__card--column">
                 <div class="competence__card--flex">
                     <p>Unreal Engine </p>
-                    <myBarre :width="160" :animate="animateBars"/>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>Blueprint</p>
-                    <myBarre :width="160" :animate="animateBars"/>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
                     <p>Unity</p>
@@ -113,7 +125,7 @@ onMounted(() => {
                 </div>
                 <div class="competence__card--flex">
                     <p>3ds Max</p>
-                    <myBarre :width="140" :animate="animateBars"/>
+                    <myBarre :width="120" :animate="animateBars"/>
                 </div>
             </div>
         </div>
@@ -159,7 +171,7 @@ onMounted(() => {
         }
         &--flex{
             display: grid;
-            grid-template-columns: 0.6fr 0.6fr ; // Définir deux colonnes
+            grid-template-columns: 0.6fr 0.6fr ; 
             margin: 10px;
         }
     }

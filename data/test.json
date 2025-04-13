@@ -1,0 +1,22 @@
+[
+    {
+        
+        "imgSrc": "/img/Ecocalypse.svg",
+        "title": "Ecocalypse",
+        "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
+        "technologies": ["Next.js", "Unreal Engine", "Blueprint"],
+        "objectif": "test",
+        "solution": "test",
+        "client": "Projet annuel première année PSM",
+        "role": "Developpeur jeu en VR",
+        "site": "/",
+        "github": "/",
+        "download": "none",
+        "images": [
+            { "type": "image", "src": "/img/Asso.svg" },
+            { "type": "image", "src": "/img/Ecocalypse.svg" },
+            { "type": "video", "src": "/videos/Ecocalypse.mp4" }
+        ]
+    }
+    
+]

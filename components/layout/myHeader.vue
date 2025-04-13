@@ -1,4 +1,3 @@
-
 <template>
     <div class="c-header">
         <h1 class="c-header__title">Portfolio</h1>
@@ -26,7 +25,7 @@
             <a href="#myProjet" class="c-menu__nav--link">
                 <img src="/assets/briefcase.svg" alt="logo briefcase" class="c-menu__nav--link--briefcase">
             </a>
-            <a href="#Contact" class="c-menu__nav--link">
+            <a href="#myContact" class="c-menu__nav--link">
                 <img src="/assets/sms.svg" alt="logo sms" class="c-menu__nav--link--sms">
             </a>
         </nav>
@@ -35,18 +34,18 @@
 
 <style lang="scss">
 .c-header {
-    position : relative;
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 33px;
-    &__title{
+    &__title {
         color: $primary;
         font-size: $big;
         font-weight: bold;
     }
-    &__div{
-        &--link{
+    &__div {
+        &--link {
             margin-left: 20px;
             &--github {
                 width: 28px; 
@@ -56,12 +55,12 @@
     }
 }
 
-.c-menu{
-    position : absolute;
+.c-menu {
+    position: absolute;
     right: 4rem;
     top: 14rem;
-    &__nav{
-        background-color: $grey;
+    &__nav {
+        background-color: $gray;
         padding: 1rem;
         display: flex;
         flex-flow: column;
@@ -70,7 +69,4 @@
         border-radius: 500px;
     }
 }
-
-
-
 </style>
