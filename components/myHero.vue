@@ -7,7 +7,12 @@
     <p class="hero__paragraphe">Développeur web et jeux video 3D/VR</p>
     <p class="hero__paragraphe">(Étudiant)</p>
     <div class="hero__button">
-        <button class="hero__button--blue">Télécharger mon CV</button>
+        <a  download href="/public/download/CV_Corentin_Beuchat_Developpeur_3D.pdf">
+            <button class="hero__button--blue">Télécharger mon CV Dev 3D</button>
+        </a>
+        <a  download href="/public/download/CV_Corentin_Beuchat_Developpeur_Web.pdf">
+            <button class="hero__button--blue">Télécharger mon CV Dev Web</button>
+        </a>
         <button class="hero__button--white">Contactez-moi</button>
     </div>
 </div>
