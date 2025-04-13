@@ -45,9 +45,12 @@ const sendEmail = (e) => {
     display: flex;
     flex-flow: column;
     align-items: center;
+<<<<<<< HEAD
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+=======
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
     gap: 0.5rem;
 
     &__title {
@@ -77,10 +80,13 @@ const sendEmail = (e) => {
                 border: 1px solid $gray;
                 border-radius: 5px;
                 width: 100%;
+<<<<<<< HEAD
                 
             }
             textarea{
                 height: 10rem;
+=======
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
             }
         }
 
@@ -90,8 +96,11 @@ const sendEmail = (e) => {
             color: $white;
             border: none;
             border-radius: 5px;
+<<<<<<< HEAD
             margin-left: auto;
             margin-right: auto;
+=======
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
             cursor: pointer;
             font-size: $medium;
         }

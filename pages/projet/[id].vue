@@ -1,5 +1,8 @@
 <script setup>
+<<<<<<< HEAD
 import { ref } from 'vue';
+=======
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
 import { useRoute, useRouter } from 'vue-router';
 import MyArrow from '~/components/svg/myArrow.vue';
 import projets from '~/data/projet.json';
@@ -8,6 +11,7 @@ const route = useRoute();
 const router = useRouter();
 const projet = projets[route.params.id];
 
+<<<<<<< HEAD
 const showLightbox = ref(false);
 const lightboxMedia = ref(null);
 
@@ -20,6 +24,9 @@ const closeLightbox = () => {
   showLightbox.value = false;
   lightboxMedia.value = null;
 };
+=======
+console.log(projet)
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
 </script>
 
 <template>
@@ -36,12 +43,20 @@ const closeLightbox = () => {
             <div class="projet__content--left">
                 <h3 class="projet__content--left--title">Objectifs</h3>
                 <p class="projet__content--left--description">{{ projet.objectif }}</p>
+<<<<<<< HEAD
                 <h3 class="projet__content--left--title" v-if="projet.solution">Solutions</h3>
+=======
+                <h3 class="projet__content--left--title">Solutions</h3>
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
                 <p class="projet__content--left--description">{{ projet.solution }}</p>
             </div>
             <div class="projet__content--right">
                 <h3>Détails du Projet</h3>
+<<<<<<< HEAD
                 <p class="projet__content--right--title">Cadre</p>
+=======
+                <p class="projet__content--right--title">Client</p>
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
                 <p class="projet__content--right--description">{{ projet.client }}</p>
                 <p class="projet__content--right--title">Rôle</p>
                 <p class="projet__content--right--description">{{ projet.role }}</p>
@@ -67,6 +82,7 @@ const closeLightbox = () => {
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <div class="carousel">
         <div v-for="(media, index) in projet.images" :key="index" class="carousel__item" @click="openLightbox(media)">
             <template v-if="media.type === 'image'">
@@ -95,6 +111,8 @@ const closeLightbox = () => {
           </template>
         </div>
     </div>
+=======
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
 </template>
 
 <style lang="scss" scoped>
@@ -106,11 +124,14 @@ const closeLightbox = () => {
         text-align: center;
         margin-bottom: 5rem;
     }
+<<<<<<< HEAD
     &__img {
         display: block; 
         margin: 0 auto; 
         max-width: 100%;
     }
+=======
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
     &__content {
         display: grid;
         grid-template-columns: 70% 30%;
@@ -210,6 +231,7 @@ const closeLightbox = () => {
         display: block;
     }
 }
+<<<<<<< HEAD
 .carousel {
     display: flex;
     overflow-x: auto;
@@ -272,4 +294,6 @@ const closeLightbox = () => {
     cursor: pointer;
   }
 }
+=======
+>>>>>>> b2cd8cafc78b1c0ec0b2aeef1a405e5114d75f53
 </style>

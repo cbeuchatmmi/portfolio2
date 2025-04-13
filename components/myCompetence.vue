@@ -44,7 +44,7 @@ onMounted(() => {
                     <myBarre :width="140" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
-                    <p>Quasar</p>
+                    <p>ThreeJS</p>
                     <myBarre :width="120" :animate="animateBars"/>
                 </div>
                 <div class="competence__card--flex">
