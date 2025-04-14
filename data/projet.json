@@ -52,7 +52,7 @@
     {
         
         "imgSrc": "/img/Ecocalypse.svg",
-        "title": "Ecocalypse",
+        "title": "Ecocalypse (en cours de réalisation)",
         "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
         "technologies": ["NextJS", "Unreal Engine", "Blueprint"],
         "objectif": "Ce projet a été réalisé dans le cadre du projet annuelle du master 1 PSM. Le sujet de cette année 2024, L'intelligence artificielle générative au service de l'écologie, nous demande d'explorer sur les moyens d'utiliser les technologies d'IA générative, comme celles capables de créer du texte, des images, ou même des simulations complexes, au service de la protection de l'environnement et de la biodiversité. Ce thème met en avant le potentiel de l'IA générative pour sensibiliser, informer et inciter à des actions concrètes en faveur de l'écologie.",
