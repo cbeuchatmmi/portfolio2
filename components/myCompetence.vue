@@ -47,10 +47,6 @@ onMounted(() => {
                     <p>ThreeJS</p>
                     <myBarre :width="120" :animate="animateBars"/>
                 </div>
-                <div class="competence__card--flex">
-                    <p>ThreeJS</p>
-                    <myBarre :width="120" :animate="animateBars"/>
-                </div>
             </div>
         </div>
         <div class="competence__card">

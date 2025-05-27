@@ -1,16 +1,24 @@
 [
     {
+        
         "imgSrc": "/img/Ecocalypse.svg",
         "title": "Ecocalypse",
         "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
-        "technologies": ["Next.js", "Unreal Engine", "Blueprint"],
-        "objectif": "test",
-        "solution": "test",
+        "technologies": ["NextJS", "Unreal Engine", "Blueprint"],
+        "objectif": "Ce projet a été réalisé dans le cadre du projet annuelle du master 1 PSM. Le sujet de cette année 2024, L'intelligence artificielle générative au service de l'écologie, nous demande d'explorer sur les moyens d'utiliser les technologies d'IA générative, comme celles capables de créer du texte, des images, ou même des simulations complexes, au service de la protection de l'environnement et de la biodiversité. Ce thème met en avant le potentiel de l'IA générative pour sensibiliser, informer et inciter à des actions concrètes en faveur de l'écologie.",
+        "solution": "Écocalypse est un projet éducatif immersif qui combine réalité virtuelle (VR) et intelligence artificielle (IA) pour sensibiliser aux enjeux climatiques. Guidé par un chatbot venu d’un futur ravagé par le dérèglement climatique, l’utilisateur découvre des conseils concrets pour réduire son empreinte carbone. Des expériences VR interactives, comme le nettoyage de déchets ou le sauvetage d’animaux marins, renforcent l’impact émotionnel et encouragent des comportements responsables.",
         "client": "Projet annuel première année PSM",
         "role": "Developpeur jeu en VR",
-        "site": "/",
+        "site": "https://projet-rhizome.vercel.app/",
         "github": "/",
-        "download": "none"
+        "download": "/download/meta-arm64.apk",
+        "youtube": "https://www.youtube.com/embed/GabLdI8yhMc",
+        "images": [
+            { "type": "image", "src": "/img/Ecocalypse/map.webp" },
+            { "type": "image", "src": "/img/Ecocalypse/tuto.webp" },
+            { "type": "image", "src": "/img/Ecocalypse/final.png" }
+
+        ]
     },
     {
         "imgSrc": "/img/Pilleur.svg",
@@ -23,7 +31,7 @@
         "role": "Developpeur et Modelisateur 3D",
         "site": "none",
         "github": "none",
-        "download": "none",
+        "download": "/download/app-release.apk",
         "youtube": "https://www.youtube.com/embed/w1smHvg44k0",
         "images": [
             { "type": "image", "src": "/img/Pilleur/Coffre.png" },
@@ -47,25 +55,6 @@
             { "type": "image", "src": "/img/Tiktak/Liste.png" },
             { "type": "image", "src": "/img/Tiktak/Modifier.png" },
             { "type": "image", "src": "/img/Tiktak/Panier.png" }
-        ]
-    },
-    {
-        
-        "imgSrc": "/img/Ecocalypse.svg",
-        "title": "Ecocalypse (en cours de réalisation)",
-        "description": "Réalisation d'un jeu en VR et d'un site vitrine avec un chatbot",
-        "technologies": ["NextJS", "Unreal Engine", "Blueprint"],
-        "objectif": "Ce projet a été réalisé dans le cadre du projet annuelle du master 1 PSM. Le sujet de cette année 2024, L'intelligence artificielle générative au service de l'écologie, nous demande d'explorer sur les moyens d'utiliser les technologies d'IA générative, comme celles capables de créer du texte, des images, ou même des simulations complexes, au service de la protection de l'environnement et de la biodiversité. Ce thème met en avant le potentiel de l'IA générative pour sensibiliser, informer et inciter à des actions concrètes en faveur de l'écologie.",
-        "solution": "Écocalypse est un projet éducatif immersif qui combine réalité virtuelle (VR) et intelligence artificielle (IA) pour sensibiliser aux enjeux climatiques. Guidé par un chatbot venu d’un futur ravagé par le dérèglement climatique, l’utilisateur découvre des conseils concrets pour réduire son empreinte carbone. Des expériences VR interactives, comme le nettoyage de déchets ou le sauvetage d’animaux marins, renforcent l’impact émotionnel et encouragent des comportements responsables.",
-        "client": "Projet annuel première année PSM",
-        "role": "Developpeur jeu en VR",
-        "site": "https://projet-rhizome.vercel.app/",
-        "github": "/",
-        "download": "none",
-        "images": [
-            { "type": "image", "src": "/img/Ecocalypse/map.png" },
-            { "type": "image", "src": "/img/Ecocalypse/tuto.png" }
-
         ]
     }
 ]
